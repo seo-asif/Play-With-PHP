@@ -1,0 +1,27 @@
+$var = 'PHP Tutorial'.
+
+Put the said variable into the title section, h3 tag and as an anchor text within an HTML document.
+
+Sample Output :
+PHP Tutorial
+
+
+Solution:
+
+<?php
+$var = 'PHP Tutorial';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title><?php echo $var; ?> - seoasif!</title>
+  </head>
+  <body>
+  <h3><?php echo $var; ?></h3>
+  <p>PHP</p>
+  <p><a href="https://www.seoasif.com/php/php-home.php">Go to the <?php echo $var; ?></a>.</p>
+</body>
+</html>
+
+
