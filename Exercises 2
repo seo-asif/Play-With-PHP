@@ -1,6 +1,11 @@
-<h1>Write a PHP script to display the following strings.</h1>
-
+Write a PHP script to display the following strings.
 Sample Strings :
 
-'Tomorrow I \'ll learn PHP global variables.'
-'This is a bad command : del c:\\*.*'
+'Tomorrow I will learn PHP global variables.'
+'This is a bad command'
+
+Solution:
+<?php
+echo "Tomorrow I will learn PHP global variables."."\n"; 
+echo "This is a bad command "\n"; 
+?>
