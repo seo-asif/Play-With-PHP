@@ -4,8 +4,6 @@ Put the said variable into the title section, h3 tag and as an anchor text withi
 
 Sample Output :
 PHP Tutorial
-
-
 Solution:
 
 <?php
